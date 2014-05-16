@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<!--  Deze file hebben we nodig om hibernate mapping en POJO files te kunnen genereren. Deze file geeft ook een goed
+overzicht van de tabellen die er geselecteerd zijn tijdens het generen van deze file
+    Deze file is ook gegenereerd met netbeans-->
+
+<!-- Moet dus aangemaakt worden voor we de POJO klassen kunnen aanmaken -->
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="sakila"/>
+  <table-filter match-name="language"/>
+  <table-filter match-name="film_category"/>
+  <table-filter match-name="film"/>
+  <table-filter match-name="category"/>
+  <table-filter match-name="actor"/>
+  <table-filter match-name="film_actor"/>
+</hibernate-reverse-engineering>
